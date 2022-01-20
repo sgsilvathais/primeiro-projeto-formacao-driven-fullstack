@@ -1,0 +1,259 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.topo-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.logo{
+    height: 80px;
+}
+
+.logo-mobile {
+    display: none;
+    padding: 10px 0;
+}
+
+.barra-topo {   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    padding: 20px 100px;
+}
+
+.barra-topo h4:first-child {
+    color: #C3170C;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(2) {
+    color: #1E4B9B;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(3) {
+    color: #006766;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(4) {
+    color: #07AA47;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(5) {
+    color: #E3662B;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(6) {
+    color: #FB0735;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(7) {
+    color: #FF75BB;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(8) {
+    color: #EC7D00;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(9) {
+    color: #323333;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(10) {
+    color: #A81D83;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.barra-topo h4:nth-child(11) {
+    color: #666666;
+    font-weight: bold;
+    font-size: 19px;
+    display: none;
+}
+
+.barra-topo h4:last-child {
+    color: #0769DE;
+    font-weight: bold;
+    font-size: 19px;
+    display: none;
+}
+
+.conteudo {
+    display: flex;
+    width: 1250px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.noticia-principal a > h1 {
+    font-size: 52px;
+    color: #C4160C;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.noticia-principal a > p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.noticia-principal {
+    padding-bottom: 25px;
+}
+
+.noticias-esquerda {
+    border-right: 1px solid #ebedef;
+    padding-right: 35px;
+}
+
+
+.noticias-esquerda img {
+    width: 193px;
+    height: 110px;
+    border-radius: 12px;
+}
+
+.noticias-esquerda h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #C4170C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noticias-esquerda h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.noticias-esquerda p {
+    font-size: 14px;
+}
+
+.noticias-horizontal-imagem{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebedef;
+    padding-bottom: 35px;
+    padding-top: 25px;
+}
+
+.noticias-horizontal-imagem > div {
+    width: 193px;
+}
+
+
+.noticias-horizontal-texto{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebedef;
+    padding-top: 15px;
+}
+
+.noticias-horizontal-texto > div {
+    width: 193px;
+}
+
+.noticias-meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.noticias-meio img {
+    border-radius: 12px;
+    width: 240px;
+}
+
+.noticias-meio h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #16AE54;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noticias-meio h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.noticias-meio p {
+    font-size: 14px;
+}
+
+.noticias-meio div:nth-child(2){
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.noticias-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 35px;
+    border-left: 1px solid #ebedef;
+}
+
+.noticias-direita img {
+    border-radius: 12px;
+    width: 240px;
+}
+
+.noticias-direita h6 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #EC8006;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.noticias-direita h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.noticias-direita p {
+    font-size: 14px;
+}
+
+.noticias-direita div:nth-child(2){
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
